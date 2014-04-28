@@ -1,0 +1,67 @@
+*{border:none;outline:none;font-weight:100;color:#333;margin:0;padding:0}
+body{background:#111;text-align:center;font-family:Arial, Verdana, Sans-serif;font-size:12px;line-height:21px}
+strong{font-weight:700}
+h1,h2,h3,h4,h5,p{padding-bottom:14px}
+h1{border-bottom:dashed 1px #aaa;margin-bottom:14px}
+h1,h2{font-size:18px}
+h3,h3 a{font-size:16px}
+h4,h4 a{font-size:14px}
+#header{height:70px}
+#header,#outer,#footer,.cl,.dev,#basket_left,.tbl_repeat{width:100%;clear:both}
+#header_in{position:relative}
+#outer{background:#fff}
+#wrapper,#header_in,#footer_in{width:900px;text-align:left;margin:0 auto}
+#header_in h5,#header_in h5 a{font-size:18px;color:#fff;text-decoration:none}
+#header_in h5{position:absolute;top:23px;left:0;font-style:italic}
+#logged_as{position:absolute;top:23px;right:0;color:#fff}
+#logged_as strong,#logged_as a{color:#fff}
+#wrapper,#footer{padding:14px 0}
+#left{width:250px}
+#right{padding-left:30px;width:620px}
+#navigation,#basket_left{list-style:none;margin-bottom:14px}
+#navigation,#navigation li,#navigation li a{float:left;width:250px}
+#navigation li a.act{text-decoration:none;font-weight:700}
+.cl,.dev{height:0;font-size:0;line-height:0}
+.dev{height:14px}
+.br_td{border-top:dashed 1px #aaa}
+#basket_left dt{clear:left;width:40%}
+#basket_left dd{text-align:right;width:30%}
+.catalogue_wrapper{width:100%;border-bottom:dashed 1px #aaa;margin-bottom:14px}
+.catalogue_wrapper_left{width:150px}
+.catalogue_wrapper_right{width:470px}
+.add_to_basket{cursor:pointer;text-decoration:underline;color:#295c88}
+.red,.warn{color:#900}
+.warn{display:block}
+.fl_r{float:right}
+.lft{width:140px}
+.rgt{width:480px}
+th,td{text-align:left;vertical-align:top}
+.tbl_repeat th,.tbl_repeat td{padding:3px 10px}
+.tbl_repeat th{background:#eee;font-weight:700}
+.tbl_repeat tr:hover{background:#f9f9f9}
+.tbl_insert th{padding:3px 10px 3px 0}
+.ta_r,th.ta_r,.td.ta_r{text-align:right}
+.col_15{width:15%}
+.col_5{width:5%}
+.fld,.fld_qty,.fld_price,.sel,.tar,.tar_fixed{border:solid 1px #aaa}
+.sel{width:308px}
+.fld{width:300px}
+.fld_price{width:100px}
+.tar{width:98%;height:100px}
+.tar_fixed{width:500px;height:100px}
+.fld_qty{width:30px;text-align:right;padding:0}
+.sbm,.btn{height:22px;text-align:center;cursor:pointer;display:block}
+.sbm_blue{background:url(/images/sprite.png) repeat-x 0 0;border:solid 1px #005b9a}
+.sbm_orange{background:url(/images/sprite.png) repeat-x 0 -30px;border:solid 1px #222}
+.btn{color:#fff;text-decoration:none;background:transparent;border:none;padding:0 15px}
+#frm_pp{display:none}
+.paging{list-style:none;width:600px;float:left;background:#efefef;margin-bottom:14px;padding:3px 10px}
+.paging li{float:left;margin-right:10px}
+.inactive{color:#aaa}
+.mr_r4{margin-right:4px}
+a:hover,#footer_in a,.add_to_basket:hover{text-decoration:none}
+#header,#outer,#left,#right,#footer,.cl,.dev,#basket_left,#basket_left dd,#basket_left dt,.catalogue_wrapper,.catalogue_wrapper_left,.catalogue_wrapper_right,.lft,.rgt,.fl_l{float:left}
+#navigation li a,#basket_left dt,#basket_left dd{padding:1px 0}
+.catalogue_wrapper img,.tbl_repeat,.tbl_insert{margin-bottom:14px}
+.tbl_insert td,.fld,.fld_price,.sel,.tar,.tar_fixed{padding:3px}
+.dn {display:none}

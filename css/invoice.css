@@ -1,0 +1,13 @@
+*{text-decoration:none;border:none;outline:none;margin:0;padding:0}
+body{text-align:center;font-family:Arial, Verdana, Sans-serif;font-size:10pt;color:#000;line-height:1.8em;padding:20px 0}
+h1,h2,h3,h4,h5,p{padding-bottom:14px}
+#wrapper{width:800px;text-align:left;margin:0 auto}
+th,td{text-align:left;vertical-align:top}
+.tbl_repeat{width:100%}
+.tbl_repeat th,.tbl_repeat td{padding:3px 10px}
+.tbl_repeat th{background:#eee;font-weight:700}
+.ta_r,th.ta_r,.td.ta_r{text-align:right}
+.col_15{width:15%}
+.cl,.dev{height:0;font-size:0;line-height:0;width:100%;clear:both}
+.dev{height:14px}
+.br_td{border-top:dashed 1px #aaa}
